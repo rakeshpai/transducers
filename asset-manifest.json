@@ -1,9 +1,9 @@
 {
-  "main.js": "/transducers/static/js/main.ce8b54ca.chunk.js",
-  "main.js.map": "/transducers/static/js/main.ce8b54ca.chunk.js.map",
+  "main.js": "/transducers/static/js/main.3547e35f.chunk.js",
+  "main.js.map": "/transducers/static/js/main.3547e35f.chunk.js.map",
   "static/css/1.250cc90b.chunk.css": "/transducers/static/css/1.250cc90b.chunk.css",
-  "static/js/1.8fe8099a.chunk.js": "/transducers/static/js/1.8fe8099a.chunk.js",
-  "static/js/1.8fe8099a.chunk.js.map": "/transducers/static/js/1.8fe8099a.chunk.js.map",
+  "static/js/1.41fc8473.chunk.js": "/transducers/static/js/1.41fc8473.chunk.js",
+  "static/js/1.41fc8473.chunk.js.map": "/transducers/static/js/1.41fc8473.chunk.js.map",
   "runtime~main.js": "/transducers/static/js/runtime~main.782736e3.js",
   "runtime~main.js.map": "/transducers/static/js/runtime~main.782736e3.js.map",
   "static/media/slide-background.webp": "/transducers/static/media/slide-background.316e299e.webp",
@@ -17,6 +17,6 @@
   "static/media/no-compromise.webp": "/transducers/static/media/no-compromise.7965f686.webp",
   "static/css/1.250cc90b.chunk.css.map": "/transducers/static/css/1.250cc90b.chunk.css.map",
   "index.html": "/transducers/index.html",
-  "precache-manifest.7817c56e919b01e13ff75c93a26b0c65.js": "/transducers/precache-manifest.7817c56e919b01e13ff75c93a26b0c65.js",
+  "precache-manifest.9cc03437d518ace766367419bc610fbc.js": "/transducers/precache-manifest.9cc03437d518ace766367419bc610fbc.js",
   "service-worker.js": "/transducers/service-worker.js"
 }
