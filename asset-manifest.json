@@ -1,6 +1,6 @@
 {
-  "main.js": "/transducers/static/js/main.28d3ee07.chunk.js",
-  "main.js.map": "/transducers/static/js/main.28d3ee07.chunk.js.map",
+  "main.js": "/transducers/static/js/main.ce8b54ca.chunk.js",
+  "main.js.map": "/transducers/static/js/main.ce8b54ca.chunk.js.map",
   "static/css/1.250cc90b.chunk.css": "/transducers/static/css/1.250cc90b.chunk.css",
   "static/js/1.8fe8099a.chunk.js": "/transducers/static/js/1.8fe8099a.chunk.js",
   "static/js/1.8fe8099a.chunk.js.map": "/transducers/static/js/1.8fe8099a.chunk.js.map",
@@ -17,6 +17,6 @@
   "static/media/no-compromise.webp": "/transducers/static/media/no-compromise.7965f686.webp",
   "static/css/1.250cc90b.chunk.css.map": "/transducers/static/css/1.250cc90b.chunk.css.map",
   "index.html": "/transducers/index.html",
-  "precache-manifest.cc35c1f21c20f38c17bf2d846d4f26f0.js": "/transducers/precache-manifest.cc35c1f21c20f38c17bf2d846d4f26f0.js",
+  "precache-manifest.7817c56e919b01e13ff75c93a26b0c65.js": "/transducers/precache-manifest.7817c56e919b01e13ff75c93a26b0c65.js",
   "service-worker.js": "/transducers/service-worker.js"
 }
