@@ -1,5 +1,5 @@
 import React from 'react';
-import { Slide, Heading, Text, Link } from 'spectacle';
+import { Slide, Heading, Link } from 'spectacle';
 import HeadingSlide from '../components/heading-slide';
 import CodeSlide from '../components/code-slide';
 import reduceExample from './example-code/reduce/example.txt';

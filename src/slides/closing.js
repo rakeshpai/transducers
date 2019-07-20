@@ -82,6 +82,6 @@ export default [
     <Text>Rakesh Pai</Text>
     <Text>@rakesh314</Text>
     <br />
-    <Text>Slides: github.com/rakeshpai/transducer</Text>
+    <Text>Slides: github.com/rakeshpai/transducers</Text>
   </Slide>
 ];

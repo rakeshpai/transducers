@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { AppContainer } from 'react-hot-loader';
-
 import Presentation from './presentation';
+import './preload-images';
 
 ReactDOM.render(
   <AppContainer>
