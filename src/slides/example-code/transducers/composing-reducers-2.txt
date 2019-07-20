@@ -1,0 +1,9 @@
+// [1, 2, 3, 4, 5].reduce(
+//   compose(filtering(isOdd), mapping(double))(concat),
+//   []
+// );
+
+const transform = compose(filtering(isOdd), mapping(double));
+
+[1, 2, 3, 4, 5]
+  .reduce(transform(concat), []);

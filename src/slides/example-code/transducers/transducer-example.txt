@@ -1,0 +1,9 @@
+const list = [1, 2, 3, 4, 5];
+
+// list
+//   .filter(isOdd)
+//   .map(double);
+
+const transform = compose(filter(isOdd), map(double));
+
+list.reduce(transform(concat), []);

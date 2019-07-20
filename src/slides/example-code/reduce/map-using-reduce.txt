@@ -1,0 +1,10 @@
+// const map = f => array => array.map(f);
+
+const map = f => array =>
+  array.reduce(
+    (acc, item) => acc.concat(f(item))
+    []
+  );
+
+const shoutList = map(shout);
+shoutList(['hello', 'world']); // ['HELLO', 'WORLD']

@@ -1,0 +1,8 @@
+const list = [1, 2, 3];
+
+list.reduce(
+  (acc, item) => ({ total: acc.total + item }),
+  { total: 0 }
+);
+
+// returns: { total: 6 }

@@ -1,0 +1,11 @@
+const mapping = f => step =>
+  (acc, item) => step(acc, f(item));
+
+const filtering = p => step =>
+  (acc, item) => p(item) ? step(acc, item) : acc;
+
+const concat = (array, item) => array.concat(item);
+
+[1, 2, 3, 4, 5]
+  .reduce(filtering(isOdd)(concat), [])
+  .reduce(mapping(double)(concat), []);

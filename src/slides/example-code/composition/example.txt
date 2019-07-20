@@ -1,0 +1,9 @@
+const greet = name => `Hello, ${name}`;
+const shout = str => str.toUpperCase();
+
+shout(greet('world')); // 'HELLO, WORLD'
+
+const compose = (g, f) => x => g(f(x));
+
+const greetLoudly = compose(shout, greet);
+greetLoudly('world'); // 'HELLO, WORLD'

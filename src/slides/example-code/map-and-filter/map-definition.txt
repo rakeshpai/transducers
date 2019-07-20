@@ -1,0 +1,9 @@
+const map = f => array => array.map(f);
+
+// --
+
+const double = x => x * 2;
+
+const doubleList = map(double);
+
+doubleList([1, 2, 3]); // [2, 4, 6]

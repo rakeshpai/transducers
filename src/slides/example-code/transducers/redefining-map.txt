@@ -1,0 +1,10 @@
+// const map = f => array => array.map(f);
+
+// const mapping = f => step =>
+//   (acc, item) => step(acc, f(item));
+
+const map = f => thing => {
+  if(Array.isArray(thing)) return thing.map(f);
+  
+  return (acc, item) => thing(acc, f(item));
+};

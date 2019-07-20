@@ -1,0 +1,10 @@
+// const filter = p => array => array.map(p);
+
+// const filtering = p => step =>
+//   (acc, item) => p(item) ? step(acc, item) : acc;
+
+const filter = p => thing => {
+  if(Array.isArray(thing)) return thing.filter(p);
+  
+  return (acc, item) => p(item) ? thing(acc, item) : acc;
+};

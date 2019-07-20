@@ -1,0 +1,8 @@
+const takeOddsAndQuadruple = pipe(
+  filter(isOdd), map(double), map(double)
+);
+
+// gets compiled to...
+
+const takeOddsAndQuadruple = x =>
+  filter(isOdd)(map(double)((map(double)(x))));

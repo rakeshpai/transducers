@@ -1,0 +1,8 @@
+// const compose = (g, f) => x => g(f(x));
+const pipe = (f, g) => x => g(f(x));
+
+const toUpper = x => x.toUpperCase();
+const greet = x => `hello, ${x}`;
+
+const greetLoudly = pipe(greet, toUpper);
+greetLoudly('world'); // 'HELLO WORLD'

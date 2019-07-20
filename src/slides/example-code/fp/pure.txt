@@ -1,0 +1,5 @@
+const toUpper = str => str.toUpperCase();
+
+const add = (x, y) => x + y;
+
+const hello = name => `Hello, ${name}`;

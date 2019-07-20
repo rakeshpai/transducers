@@ -1,0 +1,11 @@
+const increment = x => x + 1;
+
+button.addEventListener('click', () => {
+  // ...
+});
+
+useEffect(() => {
+  return () => {
+    // ...
+  }
+});

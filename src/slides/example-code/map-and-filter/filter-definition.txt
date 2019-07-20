@@ -1,0 +1,9 @@
+const filter = p => array => array.filter(p);
+
+// --
+
+const isOdd = x => x % 2;
+
+const oddsFromList = filter(isOdd);
+
+oddsFromList([1, 2, 3, 4, 5]); // [1, 3, 5]

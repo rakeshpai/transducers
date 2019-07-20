@@ -1,0 +1,6 @@
+const firstChar = str => str[0];
+const toUpper = str => str.toUpperCase();
+
+const fn = pipe(map(firstChar), map(toUpper));
+
+fn(['hello', 'world']); // ['H', 'W']

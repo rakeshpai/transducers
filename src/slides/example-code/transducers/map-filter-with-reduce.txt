@@ -1,0 +1,9 @@
+const mapping = f =>
+  (acc, item) => acc.concat(f(item));
+
+const filtering = p =>
+  (acc, item) => p(item) ? acc.concat(item) : acc;
+
+[1, 2, 3, 4, 5]
+  .reduce(filtering(isOdd), [])
+  .reduce(mapping(double), [])

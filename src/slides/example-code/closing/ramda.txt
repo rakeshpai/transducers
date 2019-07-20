@@ -1,0 +1,9 @@
+import {
+  compose, concat, filter, map, transduce
+} from 'ramda';
+
+const list = [1, 2, 3, 4, 5];
+
+const transducer = compose(filter(isOdd), map(double));
+
+transduce(transducer, concat, [], list); // [2, 6, 10]

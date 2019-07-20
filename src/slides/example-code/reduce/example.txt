@@ -1,0 +1,8 @@
+const add = (x, y) => x + y;
+
+[1, 2, 3].reduce(add, 0); // 6
+
+// array.reduce(
+//   (accumulator, item) => newAccumulator,
+//   initialValue
+// );

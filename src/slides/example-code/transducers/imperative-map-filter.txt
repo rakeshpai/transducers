@@ -1,0 +1,13 @@
+const doubledOdds = array => {
+  const result = [];
+
+  for(let i = 0; i < array.length; i++) {
+    if(isOdd(array[i])) {
+      result.push(double(array[i]));
+    }
+  }
+
+  return result;
+}
+
+doubledOdds([1, 2, 3, 4, 5]); // [2, 6, 10]

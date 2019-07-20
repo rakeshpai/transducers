@@ -1,0 +1,11 @@
+// const pipe = (f, g) => x => g(f(x));
+
+const pipe = (...fns) => x =>
+  fns.reduce(
+    (acc, f) => f(acc),
+    x
+  );
+
+const takeOddsAndQuadruple = pipe(
+  filter(isOdd), map(double), map(double)
+);
