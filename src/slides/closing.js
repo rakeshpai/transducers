@@ -1,5 +1,5 @@
 import React from 'react';
-import { Slide, Heading, Table, TableRow, TableItem, Text, List, ListItem } from 'spectacle';
+import { Slide, Heading, Table, TableRow, TableItem, Text, List, ListItem, Link } from 'spectacle';
 import styled from 'react-emotion';
 import HeadingSlide from '../components/heading-slide';
 import CodeSlide from '../components/code-slide';
@@ -67,9 +67,10 @@ export default [
   <Slide>
     <Heading bold={false} size={3}>References</Heading>
     <List>
-      <ListItem>Ramda</ListItem>
-      <ListItem>FantasyLand Spec / Transducer Protocol</ListItem>
-      <ListItem>Rich Hickey (Clojure) on Transducers</ListItem>
+      <ListItem><Link href="https://ramdajs.com/">Ramda</Link></ListItem>
+      <ListItem>tramsducer.js</ListItem>
+      <ListItem><Link href="https://github.com/fantasyland/fantasy-land">FantasyLand Spec</Link></ListItem>
+      <ListItem><Link href="https://www.youtube.com/watch?v=6mTbuzafcII">Rich Hickey (Clojure) on Transducers</Link></ListItem>
     </List>
   </Slide>,
 
