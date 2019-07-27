@@ -8,16 +8,18 @@ export default [
 
   <Slide>
     <Heading bold={false}>Rakesh Pai</Heading>
+    <br />
     <Image src={errorceptionLogo} width="50%" />
   </Slide>,
 
   <Slide>
-    <Heading textAlign="left" bold={false}>Topics</Heading>
+    <Heading textAlign="left" size={3} bold={false}>Topics</Heading>
+    <br />
     <List bulletStyle="▪">
       <ListItem>Functional programming basics</ListItem>
       <ListItem>Function composition</ListItem>
-      <ListItem><code>.map</code>, <code>.filter</code></ListItem>
-      <ListItem><code>.reduce</code></ListItem>
+      <ListItem>.map, .filter</ListItem>
+      <ListItem>.reduce</ListItem>
       <ListItem>Transducers</ListItem>
     </List>
   </Slide>

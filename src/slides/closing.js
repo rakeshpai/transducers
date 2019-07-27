@@ -68,7 +68,7 @@ export default [
     <Heading bold={false} size={3}>References</Heading>
     <List>
       <ListItem><Link href="https://ramdajs.com/">Ramda</Link></ListItem>
-      <ListItem>tramsducer.js</ListItem>
+      <ListItem>transducer.js</ListItem>
       <ListItem><Link href="https://github.com/fantasyland/fantasy-land">FantasyLand Spec</Link></ListItem>
       <ListItem><Link href="https://www.youtube.com/watch?v=6mTbuzafcII">Rich Hickey (Clojure) on Transducers</Link></ListItem>
     </List>
