@@ -1,7 +1,7 @@
 self.__precacheManifest = [
   {
-    "revision": "3547e35fc62240a2e728",
-    "url": "/transducers/static/js/main.3547e35f.chunk.js"
+    "revision": "35f4577e4a93f41482d5",
+    "url": "/transducers/static/js/main.35f4577e.chunk.js"
   },
   {
     "revision": "41fc8473dc594bb38cec",
@@ -52,7 +52,7 @@ self.__precacheManifest = [
     "url": "/transducers/static/media/no-compromise.7965f686.webp"
   },
   {
-    "revision": "cad2e356d25f3cd2ba11188d7b64fddd",
+    "revision": "fa757ebdf2f06e028bfdabba6b3bfd44",
     "url": "/transducers/index.html"
   }
 ];
